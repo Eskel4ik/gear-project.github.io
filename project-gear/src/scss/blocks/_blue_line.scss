@@ -1,0 +1,38 @@
+.blue-lane__container {
+  width: 100%;
+  background: url(../images/bg-layer-02.png) #005db4 repeat 0 0;
+}
+.blue-line__content {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+}
+.blue-line__content_text {
+  font-size: 24px;
+  color: #fff;
+  margin-left: 50px;
+}
+.blue-line__content_button {
+    display: block;
+    padding: 12px 0;
+    color: #ffffff;
+    background: #007aec;
+    border: 1px solid #007aec;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 800;
+    text-align: center;
+    width: 15%;
+    margin-right: 50px;
+}
+.blue-line__content_button:hover {
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  color: #ffffff;
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+}

@@ -1,0 +1,89 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .sidebar__container_main {width: 40%;}
+  .sidebar__item_main {font-size: 55px; padding: 50px!important;}
+  .sidebar__item_secondary {font-size: 30px; padding: 55px!important;}
+  .gear-header__note {display: none!important;}
+  .header-menu__logo {height: 80%;}
+  .burger__box {display: block; right: 140px; top: 50px;}
+  .burger__box_bottom {display: block; right: 140px; bottom:180px;}
+  .fa-burger {font-size: 60px;}
+  .gear-header__cross {height: 80px!important;}
+  .header-menu__container {width:90%; height:160px; left: 0; top:0;}
+  .header-menu__search_form {display: none;}
+  .header__search-bottom_container {height: 80px; font-size: 40px!important;}
+  .header__search-bottom_form {height: 80px!important;}
+  .header__search-bottom_icon-holder {height: 80px!important; width:80px!important;}
+  .header__search-bottom_icon {font-size: 40px!important;padding:10px!important;}
+  .header__search-bottom_input {height: 80px!important; width: 60%!important;}
+  .header__search-bottom_button {font-size: 30px!important; padding: 30px 48px!important;}
+  .header__search-bottom_text {font-size: 40px;}
+  .header-menu__list {display: none!important;}
+  .scroll-bar__container {height: 240px;}
+  .scroll-bar__item_container {margin-left: 400px; margin-right: 400px; height: 160px;}
+  .image_scale {height: 160px; width: 160px;}
+  .map__form_main {width: 75%!important;}
+  .map__form_button {font-size: 30px!important; padding: 30px 48px!important;}
+  .iframe-map {height: 900px!important;}
+  .goods-container {width:100%; font-size: 34px!important;}
+  .goods-container__item {width: 80%; margin-left: auto; margin-right: auto; font-size: 40px!important;}
+  .our-positions__container-numbers {flex-wrap: wrap; padding: 80px 0!important;}
+  .our-positions__container-numbers_item {width: 80%; margin-top: 40px;}
+  .our-positions__container-numbers_big {font-size: 120px!important;}
+  .our-positions__container-numbers_text {font-size: 30px!important;}
+  .news__container {width:100%; font-size: 40px!important;}
+  .news__title {font-size: 50px;}
+  .news__button_angle {font-size: 80px;margin-left: 50px;}
+  .news__item_title {font-size: 50px; margin: 40px 0;}
+  .gear-header__login_button {font-size: 30px!important; padding: 30px 48px!important; margin-top: 40px; margin-bottom: 50px;}
+  .tuning-center__container {width:100%;}
+  .tuning-center__man_container  {display: none;}
+  .tuning-center__title {font-size: 80px; padding: 50px; }
+  .tuning-center__text {font-size: 40px!important;}
+  .type-note__container {width:100%; flex-direction: column; flex-wrap: wrap; margin-top: 100px;}
+  .type-note__item {width: 80%!important; margin-left: auto; margin-right: auto; margin-top: 50px;}
+  .type-note__item_title {font-size: 50px!important;}
+  .fa-type-note {font-size: 70px!important;}
+  .gallery__container {width:100%;}
+  .gallery__container_line {flex-wrap: wrap;}
+  .gallery__container_item {width: 80%; margin-top: 50px;}
+  .our-team__container_main {width: 90%!important;}
+  .our-team__title {font-size: 50px;}
+  .our-team__container_member {padding:0; width: 33%!important; height: 850px; margin-bottom: 50px;}
+  .team_refresher {width: 100%;}
+  .blue-line__content {flex-direction: column; width: 80%!important; margin-left: auto; margin-right: auto; }
+  .blue-line__content_text {font-size: 40px; margin: 0!important;}
+  .blue-line__content_button {width: 100%;margin-left: auto; margin-right: auto; font-size: 30px!important; padding: 30px 48px!important; margin-top: 30px;}
+  .footer__container_blog {width:100%; padding-left: 30px; padding-top: 50px; margin-top:0!important; flex-direction: column; padding-bottom: 100px;}
+  .footer__blog_title {font-size: 50px; margin: 50px 0;}
+  .footer__blog_text {font-size: 40px!important; line-height:60px!important;}
+  .footer__blog_column {width: 90%!important; margin-left:auto; margin-right: auto;}
+  .footer__navbar {width:90%; left:0!important; height:160px; bottom: -85px!important}
+  .footer-menu__list_link {display: none;}
+  .footer__container_downer-block {padding-top:100px; justify-content: center;}
+  .footer-container_downer-text {display: none;}
+  .contact-us__container {width:100%; margin-left: auto; margin-right: auto;}
+  .products__container_main {width: 100%; flex-direction: column;}
+  .products__item-list {order:0; width:100%;}
+  .products__menu_container {width: 100%;}
+  .products__container_main {width: 90%!important; font-size: 50px!important;}
+  .products__item_hover {width: 100%; height: 800px;}
+  .products__item-list_goods-item-image {width: 90%!important; margin-left: auto; margin-right: auto;}
+  .products__item-list_goods-item-container {width:100%; margin-top:50px; margin-bottom: 50px; height: 900px!important;}
+  .products__item-list_selection {width: 80%; height: 80px; margin-top: 50px;}
+  .products__item-list_goods-item-name {font-size: 70px; margin-top: 50px;}
+  .products__item-list_goods-item-price {line-height: 60px!important; font-size: 60px!important; padding: 15px; margin-left: 45px; margin-top: 40px;}
+  .products__item-list_goods-item-hidden-link { font-size: 40px!important; padding:50px!important;}
+  .products__item-list_pages-link {font-size: 40px!important; height: 50px!important; width: 50px!important; padding:15px!important; line-height: 40px;}
+  .products__menu_title {font-size: 70px; margin: 50px 0;}
+  .products__menu_search-input {line-height: 40px; padding: 20px; height: 80px;}
+  .products__menu_search-button {height: 120px; font-size: 40px;}
+  .products__color-pick {height: 100px; font-size: 40px;}
+  .products__tag-cloud {margin: 50px 0;}
+  .products__tag-cloud_link {font-size: 40px!important; padding: 30px!important;}
+  .news__container_flex {width: 100%; flex-direction: column;}
+  .news__item_container {width: 100%!important; order:1;}
+  .new__container_scroll-buttons {width: 100%; order:0;}
+  .contact-us__box {margin-left: 40px; height: 90px; margin-top:200px;}
+  .contact-us__text {font-size: 40px!important;}
+  .contact-us__link {font-size: 40px!important;}
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700|Ubuntu:300,400,700&subset=cyrillic,cyrillic-ext,latin-ext');
+html {
+  font: normal 15px / 22px 'Ubuntu';
+  font-stretch: normal;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  background: #ffffff;
+  color: #777777;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  html {font: normal 40px / 50px 'Ubuntu'!important;}
+}

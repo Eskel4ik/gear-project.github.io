@@ -1,0 +1,29 @@
+.type-note__container {
+  margin-top: 35px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  .type-note__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 19%;
+    .type-note__item_title {
+      font-size: 20px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+      color: #000;
+      font-weight: bold;
+    }
+    .type-note__item_text {
+      text-align: center;
+      padding: 0 10px;
+    }
+  }
+}

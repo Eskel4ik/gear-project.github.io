@@ -1,0 +1,147 @@
+.header__search-bottom_text {
+margin-left: 10%;
+font-family: 'Ubuntu';
+font-size: 20px;
+font-weight: bold;
+color: #777;
+}
+.gear-header__login_link-box {
+  background: transparent;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right:0;
+}
+.gear-header__login_link-box:hover .gear-header__login_dropdown-frame {
+  visibility: visible;
+}
+.header-menu-dropdown_item-box:hover .header-menu__dropdown_containeer {
+  visibility: visible;
+}
+.header-menu-dropdown_item-box:hover .header-menu__dropdown_grid {
+  visibility: visible;
+}
+.header-menu-dropdown_item-box-flex:hover .header-menu__dropdown_blog-container {
+  visibility: visible;
+}
+.header-menu__dropdown_list {
+  list-style-type: none;
+  .header-menu__dropwdown_item {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ccc;
+    display: block;
+    width: 240px;
+    margin: 0 20px 0 0px;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: .4s;
+    &:hover {
+      background-color: #007aec;
+    }
+  }
+}
+.header-menu__dropdown_list {
+  list-style-type: none;
+  .header-menu__dropwdown_item-grid {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ccc;
+    display: block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: .4s;
+    &:hover {
+      background-color: #007aec;
+    }
+    .header-menu__dropdown-item_fix {
+      margin-right: 0;
+    }
+  }
+}
+
+.header-menu__dropdown_border {
+  border-right: 1px solid #fff;
+  margin-right: 20px;
+}
+.header-menu__dropdown_features {
+  width: 170px;
+}
+.header-menu-dropdown_item-box {
+  position: relative;
+}
+.header-menu__dropdown_blog {
+  width: 250px;
+}
+.gear-header__login_form-link {
+  color: #005db4;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: #007aec;
+  }
+  &:visited {
+    color: #005db4;
+  }
+}
+.gear-header__login_button {
+  color: #ffffff !important;
+  background: #005db4;
+  border: 1px solid #005db4;
+  padding: 11px!important;
+  font-size: 18px!important;
+  font-weight: bold;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px 0;
+  &:hover {
+    background: #007aec;
+    border: 1px solid #007aec;
+  }
+}
+.news__photo_container {
+  overflow: hidden;
+}
+.news__photo {
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+&:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+  }
+}
+.news_margin_fix {
+  margin-top: 30px;
+}
+.burger__box {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  top: 25px;
+  right: 90px;
+}
+.fa-burger {
+  font-size: 25px;
+  cursor: pointer;
+}
+.burger__checkbox_hidden {
+  display: none;
+}
+.burger__checkbox_hidden:checked + .sidebar__container_main {
+  display: block;
+}
+.burger__box_bottom {
+  display: none;
+  position: absolute;
+  bottom: 140px;
+  right: 100px;
+}

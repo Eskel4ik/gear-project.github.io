@@ -1,0 +1,22 @@
+.scroll-bar__container {
+  margin-top: 30px;
+  box-sizing: border-box;
+  height: 140px;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 30px 20px;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+.scroll-bar__item_container {
+   display: inline-block;
+   max-width: 8%;
+   margin-right: 60px;
+   min-width: 80px;
+   height: 80px;
+   opacity: .5;
+   &:hover {
+     opacity: 1;
+   }
+}

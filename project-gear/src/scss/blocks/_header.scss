@@ -1,0 +1,62 @@
+.gear-header {
+  font: normal 15px / 22px 'Ubuntu' !important;
+  color: #242424;
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  .gear-header__note {
+    font-size: 13px;
+    display: flex;
+    flex: row nowrap;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    margin-top: 25px;
+    margin-bottom: 55px;
+    position: relative;
+    .gear-header__login_link {
+      position: absolute;
+      right:0;
+      margin-left: 10px;
+    }
+  }
+  .gear-header__icon_position {
+    margin-right: 5px;
+    font-size: 13px;
+  }
+  .gear-header__text {
+    margin-right: 25px;
+    color: #777;
+  }
+  .gear-header__cross {
+    border-bottom: 10px solid #000;
+    height: 90px;
+  }
+}
+.gear-header__login_dropdown-frame {
+  visibility: hidden;
+  position: absolute;
+  right:0;
+  top: 45px;
+  width: 280px;
+  z-index:100;
+  color: blue;
+  background-color: rgba(255,255,255,.9);
+  padding: 20px;
+}
+.gear-header__login_form {
+    background: transparent;
+    border: 1px solid rgba(70, 70, 70, 0.3);
+    border-radius: 2px;
+    height: 30px;
+    margin-top: 5px;
+    width: 95%;
+    color: #515151;
+    font: 12px Tahoma;
+    padding: 4px 7px;
+    margin-bottom: 10px;
+    outline: none;
+    &:focus {
+      background-color: #fff;
+    }
+  }

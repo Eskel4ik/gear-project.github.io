@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) {
+  .header-menu__container {width:90%; left: 5%; right: 5%;}
+  .gear-header__note {width:90%;}
+  .header__search-bottom_container {width:90%; margin-left: auto; margin-right: auto; margin-bottom: 50px;}
+  .header-menu__dropdown_blog-container {left: -430px !important;}
+  .goods-container {width:90%; margin-left: auto; margin-right: auto;}
+  .goods-container__item {width: 33%;}
+  .news__container {width:90%; margin-left: auto; margin-right: auto;}
+  .news__item_container {width:30%;}
+  .tuning-center__container {width:90%; margin-left: auto; margin-right: auto;}
+  .type-note__container {width:90%; margin-left: auto; margin-right: auto;}
+  .gallery__container {width:90%; margin-left: auto; margin-right: auto;}
+  .our-team__container_main {width:90%; margin-left: auto; margin-right: auto;}
+  .footer__container_blog {width:90%; margin-left: auto; margin-right: auto;}
+  .contact-us__container {width:90%; margin-left: auto; margin-right: auto;}
+}
+@media screen and (max-width: 950px) {
+  .header-menu__search_form {display: none;}
+}
